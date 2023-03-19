@@ -15,6 +15,6 @@ alanımın biraz dışında kalan bir bölüm olduğu için çok ileri götürme
 # Program resimleri:
 <p float="left">
   <img src="./Resimler/Ana Ekran.png" width="200">
-  <img src="./Resimler/Bağlantı Ekranı.png" width="200"> 
+  <img src="./Resimler/Ana Ekran2.png" width="200">
 </p>
 <img src="./Resimler/Android Studio Projesi.jpg" width="600"> 
