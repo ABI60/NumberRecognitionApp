@@ -10,7 +10,7 @@ resimleri değiştirerek AI eğitimi için kaynakları çoğaltma gibi teknikler
 çok yüksek bir performansa sahip değil ki zaten benim amacım da bu değildi. Döküman eksikliği ve benim
 alanımın biraz dışında kalan bir bölüm olduğu için çok ileri götürmeye gerek görmedim.
 
-> APK olarak indirmek için: https://drive.google.com/file/d/1NNttLtDx10fN6Z3sP1uFTuPEyPCxO9Om/view?usp=share_link
+> APK olarak indirmek için: https://drive.google.com/file/d/1f0XfK7Q13g6o7bp67vcg0ulk6ZFN4eTk/view?usp=share_link
 
 # Program resimleri:
 <p float="left">
