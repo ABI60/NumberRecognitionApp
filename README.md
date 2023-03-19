@@ -1,5 +1,5 @@
 # NumberRecognitionApp
-Android Studio ve Tensorflow kullanılarak tamamen kendim yazdığım ai numara tanımlama programı.
+Android Studio ve Tensorflow kullanılarak tamamen kendim yazdığım çizim ve ai numara tanımlama programı.
 
 - AI programı ve modeli eski hard diskimin bozulmasıyla maalesef kayboldu. Ancak Python ve Tensorflow
 kullanarak kendim yazıp test ettim.
