@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/probabilitiesText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#4F444444"
+            android:text=" Number 0: \n Number 1: \n Number 2: \n Number 3: \n Number 4: \n Number 5: \n Number 6: \n Number 7: \n Number 8: \n Number 9:\n\n Final Guess: ..."
+            android:textColor="#252525"
+            android:textStyle="bold"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/probabilitiesHeader" />
+
+        <TextView
+            android:id="@+id/probabilitiesHeader"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:background="#4F444444"
+            android:fontFamily="monospace"
+            android:gravity="center_vertical"
+            android:text="- PROBABILITIES -"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display4"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/clearBtn" />
+
+        <com.example.numberrecognitionapp.Drawable.DrawableView
+            android:id="@+id/drawing"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/clearBtn"
+            android:layout_width="169dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="#39A9E6"
+            android:text="CLEAR"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/drawing" />
+
+        <Button
+            android:id="@+id/guessBtn"
+            android:layout_width="169dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="15dp"
+            android:backgroundTint="#39A9E6"
+            android:text="GUESS"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/clearBtn" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#800099CC"
+            app:layout_constraintBottom_toBottomOf="@+id/drawing"
+            app:layout_constraintEnd_toStartOf="@+id/drawing"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#800099CC"
+            app:layout_constraintBottom_toBottomOf="@+id/drawing"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/drawing"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@android:color/transparent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
